@@ -1,22 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <script
       src="https://kit.fontawesome.com/0ae1aebe6f.js"
       crossorigin="anonymous"
     ></script>
-    <title>CSS Assignment</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+    <title>Cards Assignment</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="cards">
+        <h1 class="title">Card components</h1>
+
+        <!-- Card 1 -->
+
+        <div class="card">
+          <img
+            class="card__img"
+            src="./assets/train-img.jpg"
+            alt="mumbai train"
+          />
+          <div class="card__title">
+            <h2>Aamchi Mumbai</h2>
+            <p>by Hamza Husein</p>
+          </div>
+          <div class="card__brief">
+            <p>Check out the best places to truly absorb the vibes of Mumbai, the
+            city that never sleeps.</p>
+          </div>
+          <div class="card__footer">
+            <div class="card__cta-btns">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="card">
+          <img
+            class="card__img"
+            src="./assets/train-img.jpg"
+            alt="mumbai train"
+          />
+          <div class="card__title overlay">
+            <h2>Aamchi Mumbai</h2>
+            <p>by Hamza Husein</p>
+          </div>
+          <div class="card__brief">
+            <p>
+              Check out the best places to truly absorb the vibes of Mumbai, the
+              city that never sleeps.
+            </p>
+          </div>
+          <div class="card__footer">
+            <div class="card__cta-btns">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="card">
+          <img
+            class="card__img od--1"
+            src="./assets/train-img.jpg"
+            alt="mumbai train"
+          />
+          <div class="card__title od--0">
+            <h2>Aamchi Mumbai</h2>
+            <p>by Hamza Husein</p>
+          </div>
+          <div class="card__brief od--1">
+            <p>
+            Check out the best places to truly absorb the vibes of Mumbai, the
+            city that never sleeps.</p>
+          </div>
+          <div class="card__footer od--1">
+            <div class="card__cta-btns">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="card">
+          <img
+            class="card__img"
+            src="./assets/train-img.jpg"
+            alt="mumbai train"
+          />
+          <div class="card__title">
+            <h2>Aamchi Mumbai</h2>
+            <p>by Hamza Husein</p>
+          </div>
+          <div class="card__brief">
+            Check out the best places to truly absorb the vibes of Mumbai, the
+            city that never sleeps.
+          </div>
+          <div class="card__footer">
+            <div class="card__cta-btns">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons visible">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+
+        <div class="card">
+          <img
+            class="card__img"
+            src="./assets/train-img.jpg"
+            alt="mumbai train"
+          />
+          <div class="card__title">
+            <h2>Aamchi Mumbai</h2>
+            <p>by Hamza Husein</p>
+          </div>
+          <div class="card__brief">
+            Check out the best places to truly absorb the vibes of Mumbai, the
+            city that never sleeps.
+          </div>
+          <div class="card__footer">
+            <div class="card__cta-btns visible">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+
+        <div class="card">
+          <div class="card__head flex-row">
+            <img
+              class="w--40"
+              src="./assets/train-img.jpg"
+              alt="mumbai train"
+            />
+            <div class="card__title w--60">
+              <h2>Aamchi Mumbai</h2>
+              <p>by Hamza Husein</p>
+            </div>
+          </div>
+          <div class="card__brief hide">
+            Check out the best places to truly absorb the vibes of Mumbai, the
+            city that never sleeps.
+          </div>
+          <div class="card__footer">
+            <div class="card__cta-btns">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+            </div>
+            <div class="card__icons">
+              <div class="card__cta-icons"><i class="far fa-heart"></i></div>
+              <div class="card__cta-icons">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card__cta-icons">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

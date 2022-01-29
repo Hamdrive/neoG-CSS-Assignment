@@ -1,0 +1,96 @@
+@import url("./variable.css");
+@import url("./utilities.css");
+@import url("./reset.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: var(---card-bkg-color);
+  width: 350px;
+  height: max-content;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: var(---box-shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+}
+
+.card__title {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.card__brief {
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  color: var(---card-brief-color);
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+.card__cta-btns {
+  display: flex;
+}
+
+.card__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.card__cta-btns button {
+  background: none;
+  border: none;
+  color: var(---card-btn-color);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.card__footer button:hover {
+  background-color: var(---card-btn-hover);
+}
+
+.card__cta-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card__cta-icons i {
+  font-size: 1.25rem;
+  color: var(---card-icons-color);
+}
+
+.card__cta-icons:hover {
+  background-color: var(---card-icons-bkg-hover);
+}
+
+.card__cta-icons:hover i {
+  color: var(---card-icons-color-hover);
+}

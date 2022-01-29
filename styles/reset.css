@@ -1,0 +1,19 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}

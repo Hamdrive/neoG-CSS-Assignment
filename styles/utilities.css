@@ -1,0 +1,41 @@
+/* width */
+.w--40{
+    width: 40%;
+}
+
+.w--60{
+    width: 60%;
+}
+
+
+/* order */
+
+.od--0{
+    order: 0;
+}
+
+.od--1{
+    order: 1;
+}
+
+/* positioning */
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    color: white;
+}
+
+/* visibility */
+.hide{
+    display: none;
+}
+
+.visible{
+    visibility: hidden;
+}
+
+/* flex */
+.flex-row{
+    display: flex;
+}
