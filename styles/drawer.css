@@ -1,0 +1,68 @@
+.drawer__fixed {
+  display: flex;
+  position: relative;
+}
+
+.drawer__aside {
+  max-width: 40%;
+  border-right: 2px solid var(---primary-text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer__aside p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.drawer__title {
+  padding: 1rem 0.5rem;
+}
+.drawer-title p {
+  margin-top: 0.7rem;
+}
+
+.drawer__menu {
+  overflow-y: auto;
+}
+
+.drawer__menu div {
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+.drawer__menu div:hover {
+  background-color: var(---drawer-aside-hover);
+}
+
+.drawer__menu span {
+  margin-left: 2rem;
+  color: var(---primary-text-color);
+  word-wrap: break-word;
+}
+
+.drawer__main {
+  flex-grow: 1;
+  width: 80%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.drawer__main-title {
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  font-size: 1.5rem;
+}
+.drawer__main-title {
+  background-color: var(---drawer-bkg-color);
+  color: var(---white);
+  font-weight: 500;
+}
+
+.drawer__main-brief {
+  font-size: 1.1rem;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+}

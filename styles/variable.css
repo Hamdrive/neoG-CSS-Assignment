@@ -1,13 +1,18 @@
 :root{
     ---box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     ---card-bkg-color: rgba(53, 53, 53, 0.082);
+    ---drawer-bkg-color: blueviolet;
     ---primary-font-family: 'Montserrat', sans-serif;
     ---card-brief-color: rgba(128, 128, 128, 1);
-    ---card-btn-color: purple;
+    ---card-btn-color: blueviolet;
     ---card-btn-hover: rgba(128, 128, 128, 0.473);
     ---card-icons-color: rgba(128, 128, 128, 1);
     ---card-icons-bkg-hover: rgba(128, 128, 128, 0.473);
     ---card-icons-color-hover: rgba(0,0,0,1);
     ---component-border-color: rgba(128, 128, 128, 1);
     ---white-bkg-color: rgba(255,255,255,1);
+    ---primary-text-color: rgba(0,0,0,1);
+    ---white: white;
+    ---drawer-aside-active: rgba(137, 43, 226, 0.5);
+    ---drawer-aside-hover: rgba(137, 43, 226, 0.3);
 }

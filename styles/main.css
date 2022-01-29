@@ -1,5 +1,6 @@
 @import url("./card.css");
 @import url("./snackbar.css");
+@import url("./drawer.css");
 
 body {
   font-family: var(---primary-font-family);
@@ -30,7 +31,7 @@ body {
   margin-bottom: 1rem;
 }
 
-section{
+section {
   margin: 2rem 0;
 }
 
@@ -47,16 +48,22 @@ section{
   border: 2px solid var(---component-border-color);
   border-radius: 10px;
   padding-bottom: 10px;
-  
 }
 
-.snackbar{
+.snackbar {
   width: 100%;
   border: 2px solid var(---component-border-color);
   border-radius: 10px;
   overflow: hidden;
   padding-bottom: 10px;
   position: relative;
+}
 
-
+.drawer {
+  border: 2px solid var(---component-border-color);
+  border-radius: 10px;
+  max-width: 85%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
 }
