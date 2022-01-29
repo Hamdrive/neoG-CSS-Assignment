@@ -1,41 +1,44 @@
 /* width */
-.w--40{
-    width: 40%;
+.w--40 {
+  width: 40%;
 }
 
-.w--60{
-    width: 60%;
+.w--60 {
+  width: 60%;
 }
-
 
 /* order */
 
-.od--0{
-    order: 0;
+.od--0 {
+  order: 0;
 }
 
-.od--1{
-    order: 1;
+.od--1 {
+  order: 1;
 }
 
 /* positioning */
-.overlay{
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    color: white;
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  color: white;
 }
 
 /* visibility */
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 
-.visible{
-    visibility: hidden;
+.visible {
+  visibility: hidden;
+}
+
+.toggle {
+  display: none;
 }
 
 /* flex */
-.flex-row{
-    display: flex;
+.flex-row {
+  display: flex;
 }

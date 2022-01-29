@@ -1,6 +1,10 @@
+@import url("./variable.css");
+@import url("./utilities.css");
+@import url("./reset.css");
 @import url("./card.css");
 @import url("./snackbar.css");
 @import url("./drawer.css");
+@import url("./badges.css");
 
 body {
   font-family: var(---primary-font-family);
@@ -44,6 +48,7 @@ section {
   align-items: center;
   gap: 1.5rem;
   width: 100%;
+  max-width: 1000px;
   overflow-y: scroll;
   border: 2px solid var(---component-border-color);
   border-radius: 10px;
@@ -52,6 +57,7 @@ section {
 
 .snackbar {
   width: 100%;
+  max-width: 1000px;
   border: 2px solid var(---component-border-color);
   border-radius: 10px;
   overflow: hidden;
@@ -59,11 +65,25 @@ section {
   position: relative;
 }
 
+
 .drawer {
   border: 2px solid var(---component-border-color);
   border-radius: 10px;
-  max-width: 85%;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   height: 500px;
+}
+
+.badges{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  border: 2px solid var(---component-border-color);
+  border-radius: 10px;
+  overflow: hidden;
+
 }

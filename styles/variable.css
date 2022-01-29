@@ -15,4 +15,7 @@
     ---white: white;
     ---drawer-aside-active: rgba(137, 43, 226, 0.5);
     ---drawer-aside-hover: rgba(137, 43, 226, 0.3);
+    ---badge-btn-color: blue;
+    ---badge-toggle-btn-color: blueviolet;
+    ---badge-btn-hover: rgba(137, 43, 226, 0.5);
 }

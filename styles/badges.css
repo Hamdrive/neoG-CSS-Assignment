@@ -1,0 +1,71 @@
+.text__badge,
+.button__badge-visible,
+.button__badge-toggle,
+.icon__badge {
+  position: relative;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(---badge-btn-color);
+  color: var(---white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm {
+  transform: translate(100%, -50%);
+  width: 25px;
+  height: 25px;
+  font-size: 0.8rem;
+}
+
+.lg {
+  transform: translate(50%, -50%);
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+.button__badge-visible button,
+.button__badge-toggle button {
+  background-color: var(---badge-toggle-btn-color);
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: var(---white);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  margin-left: 1rem;
+}
+
+.button__badge-visible button:hover, .button__badge-toggle button:hover {
+  background-color: var(---badge-btn-hover);
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.icon > i {
+  font-size: 3rem;
+  color: red;
+}
+
+.toggle {
+    display: none;
+  }
