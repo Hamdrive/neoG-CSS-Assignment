@@ -225,6 +225,39 @@
           </div>
         </div>
       </section>
+      <section class="snackbar">
+        <h1 class="title">Snackbar components</h1>
+        <div class="snackbar-btns">
+          <button id="btn-baseline">Baseline</button>
+          <button id="btn-leading">Leading</button>
+          <button id="btn-stacked">Stacked</button>
+        </div>
+        <div class="baseline">
+          <span>Whoops! Something went wrong there...</span>
+          <section class="cta">
+            <button>RETRY</button>
+            <span class="close-icon"><i class="fas fa-times"></i></span>
+          </section>
+        </div>
+        <div class="leading">
+          <span>You've ordered 100 pizzas! Enjoy!</span>
+          <section class="cta">
+            <button>UNDO</button>
+            <span class="close-icon"><i class="fas fa-times"></i></span>
+          </section>
+        </div>
+        <div class="stacked">
+          <span
+            >Looks like you already placed this order, please confirm if you want to repeat this
+            again?
+          </span>
+          <section class="cta">
+            <button>REPEAT</button>
+            <span class="close-icon"><i class="fas fa-times"></i></span>
+          </section>
+        </div>  
+      </section>
     </main>
+    <script src="./scripts/snackbar.js"></script>
   </body>
 </html>
