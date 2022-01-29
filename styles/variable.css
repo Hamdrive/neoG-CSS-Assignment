@@ -18,4 +18,9 @@
     ---badge-btn-color: blue;
     ---badge-toggle-btn-color: blueviolet;
     ---badge-btn-hover: rgba(137, 43, 226, 0.5);
+    ---tab-bkg-color: rgba(128, 128, 128, 0.4);
+    ---tab-hover: rgba(137, 43, 226, 0.4);
+    ---tab-focus-bkg-color: rgba(137, 43, 226, 0.7);
+    ---tab-focus-border: blueviolet;
+    ---tab-active: rgba(137, 43, 226, 0.7);
 }

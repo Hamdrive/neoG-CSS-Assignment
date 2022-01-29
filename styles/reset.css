@@ -29,6 +29,8 @@ a {
 li {
   padding: 1rem;
   margin: 0.5rem;
-  border-radius: 1rem;
-  font-weight: 600;
 }
+
+ul {
+    list-style-type: none;
+  }

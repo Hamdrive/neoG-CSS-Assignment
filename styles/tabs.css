@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.tab-fixed {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.tab__list{
+    display: flex;
+}
+
+.tab-scroll {
+  overflow-x: scroll;
+  scroll-behavior: scroll;
+  position: relative;
+  display: flex;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.tab {
+  padding: 1rem 1.75rem;
+  font-size: 1.2rem;
+  background-color: var(---tab-bkg-color);
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  outline: none;
+  width: max-content;
+}
+
+.tab:hover {
+  background-color: var(---tab-hover);
+}
+
+.tab:focus {
+  border-bottom: 2px solid var(---tab-focus-border);
+  background-color: var(---tab-focus-bkg-color);
+}
